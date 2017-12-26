@@ -1,13 +1,15 @@
-package org.javabrains.messenger.service;
+package org.javabrains.messenger.service.test;
 
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
 import org.javabrains.messenger.model.Message;
+import org.javabrains.messenger.service.MessageService;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+
 
 public class MessageServiceTest {
 
